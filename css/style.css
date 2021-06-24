@@ -455,6 +455,11 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 
+#wedding-gift, #wish-button {
+  border: none;
+  color: white;
+  background-color: #f7b3b7;
+}
 
 
 #fh5co-counter {
