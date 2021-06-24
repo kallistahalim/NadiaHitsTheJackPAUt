@@ -77,10 +77,10 @@
 					<!-- <div id="fh5co-logo"><a href="index.html">Paulus - Nadia<strong></strong></a></div> -->
 				</div>
 				<div class="col-xs-10 text-right menu-1">
-					<ul>
+					<!-- <ul>
 						<li class="active"><a href="index.html">Home</a></li>
 						<li class="active"><a href="gallery.html">Gallery</a></li>
-						<li><a href="about.html">Story</a></li>
+						<li><a href="about.html">Story</a></li> -->
 						<!-- <li class="has-dropdown">
 							<a href="services.html">Services</a>
 							<ul class="dropdown">
@@ -99,8 +99,8 @@
 								<li><a href="#">jQuery</a></li>
 							</ul>
 						</li> -->
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
+						<!-- <li><a href="contact.html">Contact</a></li>
+					</ul> -->
 				</div>
 			</div>
 			
@@ -114,10 +114,10 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Joefrey &amp; Sheila</h1>
+							<h1>Paulus &amp; Nadia</h1>
 							<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<!-- <p><a href="#" class="btn btn-default btn-sm">Save the date</a></p> -->
 						</div>
 					</div>
 				</div>
@@ -615,15 +615,15 @@
     // default example
     simplyCountdown('.simply-countdown-one', {
         year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
+        month: d.getMonth()-1,
+        day: d.getDate()+ 11
     });
 
     //jQuery example
     $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
+        year: 2021,
+        month: 7,
+        day: 10,
         enableUtc: false
     });
 </script>
