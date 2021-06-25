@@ -171,7 +171,7 @@
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
+							<div class="col-md-12 col-sm-12 text-center">
 								<div class="event-wrap animate-box">
 									<h3>Holy Matrimony</h3>
 									<div class="event-col">
@@ -281,7 +281,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<!-- <span>Our Memories</span> -->
 					<h2>Wedding Gift</h2>
-					<p>We understand that some of you might want to send us a greeting or gift, so please tap the following buttons to send them to us
+					<p id="wedding-gift-font">We understand that some of you might want to send us a greeting or gift, so please tap the following buttons to send them to us
 					</p>
 					<button id="wedding-gift">WEDDING GIFT</button>
 				</div>
@@ -433,6 +433,29 @@
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<span>Best Wishes</span>
 						<h2>Wishes and Greetings</h2>
+
+						<div class="container">
+							<form action="/action_page.php">
+							  <label for="fname">First Name</label>
+							  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+						  
+							  <label for="lname">Last Name</label>
+							  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+						  
+							  <label for="country">Country</label>
+							  <select id="country" name="country">
+								<option value="australia">Australia</option>
+								<option value="canada">Canada</option>
+								<option value="usa">USA</option>
+							  </select>
+						  
+							  <label for="subject">Subject</label>
+							  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+						  
+							  <input type="submit" value="Submit">
+							</form>
+						  </div>
+						  
 						<button id="wish-button">SEND US YOUR WISHES</button>
 					</div>
 					
@@ -539,7 +562,7 @@
 	</div> -->
 
 
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
+	<!-- <div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
@@ -569,8 +592,8 @@
 					</form>
 				</div>
 			</div>
-		</div>
-	</div>
+		</div> -->
+	</div> 
 
 	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
