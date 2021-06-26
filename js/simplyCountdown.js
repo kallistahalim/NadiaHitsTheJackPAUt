@@ -153,7 +153,14 @@
             seconds,
             cd = document.querySelectorAll(elt);
 
-            targetTmpDate = new Date();
+            targetTmpDate = new Date(
+                parameters.year,
+                parameters.month - 1,
+                parameters.day,
+                parameters.hours,
+                parameters.minutes,
+                parameters.seconds
+            );
             targetTmpDate.setUTCHours(0);
             targetTmpDate.setUTCDate(10);
             targetTmpDate.setUTCMonth(6);
