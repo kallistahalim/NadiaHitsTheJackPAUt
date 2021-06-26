@@ -789,7 +789,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #watch-here {
   font-size : 40px;
   border : none;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 /* u:hover {
