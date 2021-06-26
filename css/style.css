@@ -1046,6 +1046,12 @@ input[type=submit], #wedding-gift{
   cursor: pointer;
 }
 
+#bca-paulus {
+  margin: 5%;
+  height: 250px;
+  width: auto;
+}
+
 /* input[type=submit]:hover {
   background-color: #45a049;
 } */
