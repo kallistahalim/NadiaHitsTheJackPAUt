@@ -15,5 +15,16 @@ firebase.initializeApp(firebaseConfig);
 var fullName;
 var greetings;
 
+$("#submit").on("click", function () {
+    console.log("click submit for greeting");
+    fullName = $("#fname").val().trim();
+    greetings = $("#subject").val().trim();
+    console.log(fullName, greetings);
 
+    firebase.database().ref().set({
+        full_name : fullName,
+        wishes : greetings
+    });
+});
+    
 
