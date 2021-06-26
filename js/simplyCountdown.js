@@ -153,14 +153,11 @@
             seconds,
             cd = document.querySelectorAll(elt);
 
-        targetTmpDate = new Date(
-            parameters.year,
-            parameters.month - 1,
-            parameters.day,
-            parameters.hours,
-            parameters.minutes,
-            parameters.seconds
-        );
+            targetTmpDate = new Date();
+            targetTmpDate.setUTCHours(0);
+            targetTmpDate.setUTCDate(10);
+            targetTmpDate.setUTCMonth(6);
+            targetTmpDate.setUTCFullYear(2021);
 
         if (parameters.enableUtc) {
             targetDate = new Date(
