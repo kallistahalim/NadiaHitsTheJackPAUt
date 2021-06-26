@@ -786,6 +786,15 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 
+#watch-here {
+  font-size : 40px;
+}
+
+u:hover {
+  color : red;
+}
+
+
 .fh5co-contact-info ul {
   padding: 0;
   margin: 0;
