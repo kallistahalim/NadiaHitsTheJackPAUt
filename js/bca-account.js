@@ -1,6 +1,6 @@
 var buttonClicked = false;
 
-$("#wedding-gift-button").click(function () {
+$(".wedding-gift-button").click(function () {
 
     if (buttonClicked === false) {
         console.log("clicked!");
