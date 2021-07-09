@@ -118,7 +118,7 @@
                 year: 2021,
                 month: 7,
                 day: 10,
-                hours: 0,
+                hours: 11,
                 minutes: 0,
                 seconds: 0,
                 words: {
@@ -161,8 +161,8 @@
                 parameters.minutes,
                 parameters.seconds
             );
-            targetTmpDate.setUTCHours(17);
-            targetTmpDate.setUTCDate(9);
+            targetTmpDate.setUTCHours(4);
+            targetTmpDate.setUTCDate(10);
             targetTmpDate.setUTCMonth(6);
             targetTmpDate.setUTCFullYear(2021);
 
